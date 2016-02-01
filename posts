@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Harry Trimble</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="jumbotron">
+	    <div class="container-fluid">
+		    	<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-8 col-lg-8">
+						<p style="font-weight: 300; font-size: 30px;"><a href="index.html"><span style="text-decoration: none; color: #0000FF" class="me-on-internet">Harry Trimble</span></a></p>
+						<p style="font-weight: 300; font-size: 30px;">blogposts I've written</p>
+						<p style="font-weight: 300; font-size: 30px;">--</p>
+					</div>
+		    	</div>
+				<div class="row" style="margin-top: px;">
+					<div class="col-md-1"></div>
+					<div class="col-md-8 col-lg-8">
+						<h2>The shotgun and the service designer</h2>
+						<p>GDS <a href="https://governmentasaplatform.blog.gov.uk/2016/01/18/shotgun-and-service-designer/"><span class="me-on-internet">blogpost</span></a> on service design patterns</p>
+					</div>
+				</div>
+				<div class="row" style="margin-top: px;">
+					<div class="col-md-1"></div>
+					<div class="col-md-8 col-lg-8">
+						<h2>The Government School of Design</h2>
+						<p>GDS <a href="https://governmentasaplatform.blog.gov.uk/2016/01/07/mapping-driving-services/"><span class="me-on-internet">blogpost</span></a> about design education and working with students at Middlesex University</p>
+					</div>
+				</div>
+				<div class="row" style="margin-top: px;">
+					<div class="col-md-1"></div>
+					<div class="col-md-8 col-lg-8">
+						<h2>Mapping driving services</h2>
+						<p>GDS <a href="https://governmentasaplatform.blog.gov.uk/2016/01/07/mapping-driving-services/"><span class="me-on-internet">blogpost</span></a> on making a graphic of government driving services as they are now</p>
+					</div>
+				</div>
+				<div class="row" style="margin-top: px;">
+					<div class="col-md-1"></div>
+					<div class="col-md-8 col-lg-8">
+						<h2>Five words I haven’t heard at work</h2>
+						<p>Medium <a href="https://medium.com/@HarryTrimble/five-words-i-haven-t-heard-at-work-3af9733c31e7#.btuy7smpp"><span class="me-on-internet">blogpost</span></a> about the language people and don't use at where I work</p>
+					</div>
+				</div>
+				<div class="row" style="margin-top: px;">
+					<div class="col-md-1"></div>
+					<div class="col-md-8 col-lg-8">
+						<h2>Top Tips for Presenting your Work</h2>
+						<p>Design Museum <a href="http://ventura.designmuseum.org/blog/top-tips-for-presenting-your-work"><span class="me-on-internet">blogpost</span></a> with advice for students presenting in the museum's yearly competition for schools</p>
+					</div>
+				</div>
+				<div class="row" style="margin-top: px;">
+					<div class="col-md-1"></div>
+					<div class="col-md-8 col-lg-8">
+						<h2>Designing services by making them</h2>
+						<p>GDS <a href="https://designnotes.blog.gov.uk/2015/10/20/designing-services-by-making-them-2/"><span class="me-on-internet">blogpost</span></a> on building a asking of help service for the National Problem Gambling Clinic</p>
+					</div>
+				</div>
+				<div class="row" style="margin-top: px;">
+					<div class="col-md-1"></div>
+					<div class="col-md-8 col-lg-8">
+						<h2>RCA resignations: some context</h2>
+						<p>Medium <a href="https://medium.com/@HarryTrimble/rca-resignations-some-context-4d6acfbd57a8#.jhpdevt3k"><span class="me-on-internet">blogpost</span></a> of my personal views of the recent changes at the Royal College of Art</p>
+					</div>
+				</div>
+				<div class="row" style="margin-top: px;">
+					<div class="col-md-1"></div>
+					<div class="col-md-8 col-lg-8">
+						<h2>Three things I learnt at the RCA</h2>
+						<p>Medium <a href="https://medium.com/@HarryTrimble/three-things-i-learnt-at-the-rca-91e2b286643a#.m09retb7l"><span class="me-on-internet">blogpost</span></a> about what I learned while doing a masters degree</p>
+					</div>
+				</div>
+	    </div>
+	</div>
+
+	
+	<div class="jumbotron">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-1"></div>
+					<div class="col-md-9">
+		<p><a href="things"><span class="me-on-internet">Things</span></a> I've made</p>
+		<p><a href="posts"><span class="me-on-internet">Blogposts</span></a> I've written</p>
+		<p><a href="books"><span class="me-on-internet">Books</span></a> I like</p>
+		<p><a href="podcasts"><span class="me-on-internet">Podcasts</span></a> I listen to</p>
+		<p>Other places <a href="https://twitter.com/HarryTrimble" target="_blank"><span class="me-on-internet">Twitter</span></a>, <a href="https://uk.linkedin.com/pub/harry-trimble/38/b3a/b23" target="_blank"><span class="me-on-internet">LinkedIn</span></a>, <a href="https://github.com/HarryTrimble?tab=repositories" target="_blank"><span class="me-on-internet">GitHub</span></a></p>
+					</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
