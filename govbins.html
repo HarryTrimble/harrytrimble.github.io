@@ -33,7 +33,7 @@
 					<div class="col-md-1"></div>
 					<div class="col-md-8 col-lg-8">
 						<img src="images/bins/Lambeth.jpg" class="img-responsive" alt="Responsive image">
-						<h2>Lambeth</h2>
+						<h2 id="council-name" data-local-authority-eng="LBH"></h2>
 						<p>31.12.2016</p>
 					</div>
 				</div>
@@ -41,7 +41,7 @@
 					<div class="col-md-1"></div>
 					<div class="col-md-8 col-lg-8">
 						<img src="images/bins/South-Lakeland.jpg" class="img-responsive" alt="Responsive image" width="720px">
-						<h2>South Lakeland</h2>
+						<h2 id="council-name" data-local-authority-eng="SLA"></h2>
 						<p>20.12.2016</p>
 					</div>
 				</div>				
@@ -49,7 +49,7 @@
 					<div class="col-md-1"></div>
 					<div class="col-md-8 col-lg-8">
 						<img src="images/bins/Haringey.jpg" class="img-responsive" alt="Responsive image">
-						<h2>Haringey</h2>
+						<h2 class="council-name" data-local-authority-eng="HRY"></h2>
 						<p>13.12.2016</p>
 					</div>
 				</div>
@@ -57,7 +57,7 @@
 					<div class="col-md-1"></div>
 					<div class="col-md-8 col-lg-8">
 						<img src="images/bins/Ealing.jpg" class="img-responsive" alt="Responsive image">
-						<h2>Ealing</h2>
+						<h2 id="council-name" data-local-authority-eng="EAL"></h2>
 						<p>2.12.2016</p>
 					</div>
 				</div>
@@ -65,7 +65,7 @@
 					<div class="col-md-1"></div>
 					<div class="col-md-8 col-lg-8">
 						<img src="images/bins/Richmond-upon-Thames.jpg" class="img-responsive" alt="Responsive image">
-						<h2>Richmond upon Thames</h2>
+						<h2 id="council-name" data-local-authority-eng="RIC"></h2>
 						<p>30.11.2016</p>
 					</div>
 				</div>
@@ -73,7 +73,7 @@
 					<div class="col-md-1"></div>
 					<div class="col-md-8 col-lg-8">
 						<img src="images/bins/Southwark.jpg" class="img-responsive" alt="Responsive image">
-						<h2>Southwark</h2>
+						<h2 id="council-name" data-local-authority-eng="SWK"></h2>
 						<p>19.11.2016</p>
 					</div>
 				</div>
@@ -99,5 +99,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+	<!-- API: local authority register -->
+	<script>
+
+	$(document).ready(function(){
+		$.get('https://local-authority-eng.register.gov.uk/records.json?page-size=500', function (results) {
+			// console.log(result)
+			for (var localAuthorityCode in results) {
+				console.log(results[localAuthorityCode])
+				$('[data-local-authority-eng="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
+			}
+		})
+	})
+
+	</script>
+
   </body>
+
+
 </html>
