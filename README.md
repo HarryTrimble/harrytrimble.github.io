@@ -1,3 +1,3 @@
 Source code for my personal website:
 
-harrytrimble.co.uk / harrytrimble.github.io
+[harrytrimble.co.uk](http://www.harrytrimble.co.uk/)
