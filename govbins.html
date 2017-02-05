@@ -119,15 +119,15 @@
 	<!-- API: local authority register -->
 	<script>
 
-	$(document).ready(function(){
-		$.get('https://local-authority-eng.register.gov.uk/records.json?page-size=500', function (results) {
-			// console.log(result)
-			for (var localAuthorityCode in results) {
-				console.log(results[localAuthorityCode])
-				$('[data-local-authority-eng="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
-			}
+		$(document).ready(function(){
+			$.get('https://local-authority-eng.register.gov.uk/records.json?page-size=500', function (results) {
+				// console.log(result)
+				for (var localAuthorityCode in results) {
+					console.log(results[localAuthorityCode])
+					$('[data-local-authority-eng="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
+				}
+			})
 		})
-	})
 
 	</script>
 
