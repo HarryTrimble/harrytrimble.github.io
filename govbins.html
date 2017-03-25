@@ -188,7 +188,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-	<!-- API: local authority register -->
+	<!-- API: local authority ENGLAND register -->
 	<script>
 
 		$(document).ready(function(){
@@ -197,6 +197,36 @@
 				for (var localAuthorityCode in results) {
 					console.log(results[localAuthorityCode])
 					$('[data-local-authority-eng="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
+				}
+			})
+		})
+
+	</script>
+
+	<!-- API: local authority SCOTLAND register -->
+	<script>
+
+		$(document).ready(function(){
+			$.get('https://local-authority-sct.alpha.openregister.org/records.json?page-size=500', function (results) {
+				// console.log(result)
+				for (var localAuthorityCode in results) {
+					console.log(results[localAuthorityCode])
+					$('[data-local-authority-sct="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
+				}
+			})
+		})
+
+	</script>
+
+	<!-- API: local authority WALES register -->
+	<script>
+
+		$(document).ready(function(){
+			$.get('https://local-authority-wls.discovery.openregister.org/records.json?page-size=500', function (results) {
+				// console.log(result)
+				for (var localAuthorityCode in results) {
+					console.log(results[localAuthorityCode])
+					$('[data-local-authority-wls="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
 				}
 			})
 		})
