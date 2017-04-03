@@ -6926,6 +6926,11 @@ a:link {
   display:table-row;
 }
 
+#filter-table tr td {
+    border: 0px;
+    padding: 0px;
+}
+
 #zero-results {
     font-size: 30px;
     font-weight: 500;
