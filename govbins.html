@@ -298,7 +298,7 @@
 				// console.log(result)
 				for (var localAuthorityCode in results) {
 					console.log(results[localAuthorityCode])
-					$('[data-local-authority-eng="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
+					$('[data-local-authority-eng="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['item'][0]['name'])
 				}
 			})
 		})
@@ -313,7 +313,7 @@
 				// console.log(result)
 				for (var localAuthorityCode in results) {
 					console.log(results[localAuthorityCode])
-					$('[data-local-authority-sct="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
+					$('[data-local-authority-sct="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['item'][0]['name'])
 				}
 			})
 		})
@@ -328,7 +328,7 @@
 				// console.log(result)
 				for (var localAuthorityCode in results) {
 					console.log(results[localAuthorityCode])
-					$('[data-local-authority-wls="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
+					$('[data-local-authority-wls="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['item'][0]['name'])
 				}
 			})
 		})
