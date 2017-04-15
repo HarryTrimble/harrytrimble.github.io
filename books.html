@@ -25,6 +25,7 @@
 					<div class="col-md-1"></div>
 					<div class="col-sm-1 col-md-8 col-lg-8">
 						<p style="font-weight: 300; font-size: 30px;"><a href="index.html"><span style="text-decoration: none; color: #0000FF" class="me-on-internet">Harry Trimble</span></a></p>
+						<h2 id="council-name" data-local-authority-eng="STN"></h2>
 						<p style="font-weight: 300; font-size: 30px;">books I like</p>
 						<p style="font-weight: 300; font-size: 30px;">--</p>
 					</div>
@@ -242,5 +243,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+	<!-- API: local authority ENGLAND register -->
+	<script>
+
+		$(document).ready(function(){
+			$.get('https://local-authority-eng.register.gov.uk/records.json?page-size=500', function (results) {
+				// console.log(result)
+				for (var localAuthorityCode in results) {
+					console.log(results[localAuthorityCode])
+					$('[data-local-authority-eng="'+localAuthorityCode+'"]').html(results[localAuthorityCode]['name'])
+				}
+			})
+		})
+
+	</script>
+
+    
   </body>
 </html>
