@@ -6945,3 +6945,17 @@ a:link {
   padding:8px; 
   color:#ccc;
 }
+
+#title-name {
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    color: blue;
+}
+
+#description {
+    font-size: 30px;
+}
+
+body {
+    font-family: Rubik;
+}
