@@ -6957,6 +6957,12 @@ a:link {
   color:#ccc;
 }
 
+#h1-big {
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    color: blue;
+}
+
 #title-name {
     font-family: 'Righteous', cursive;
     font-size: 24px;
