@@ -1125,6 +1125,11 @@ img {
     max-width: 100%;
     height: auto
 }
+
+.img-responsive {
+    width: 100%;
+}
+
 .img-rounded {
     border-radius: 6px
 }
@@ -6959,7 +6964,6 @@ a:link {
 
 #h1-big {
     font-family: 'Righteous', cursive;
-    font-size: 36px;
     color: blue;
 }
 
@@ -6979,4 +6983,42 @@ body {
 
 h2 {
     font-family: 'Rubik', sans-serif;
+}
+
+ul.timeline {
+    list-style-type: none;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #333;
+    display: inline-block;
+    position: absolute;
+    left: 33px;
+    width: 2px;
+    height: 80%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 35px 0;
+    padding-left: 20px;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #333;
+    left: 20px;
+    width: 27px;
+    height: 27px;
+    z-index: 400;
+}
+
+#current:before {
+    border: 3px solid blue;
+    background: blue;
 }
