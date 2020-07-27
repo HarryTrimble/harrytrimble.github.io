@@ -6909,6 +6909,16 @@ a:link {
     text-decoration: none;
 }
 
+.white-link {
+    color: #fff;
+    text-decoration: underline
+
+}
+.white-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 #link-to-homepage {
     color: #0000FF !important;
     text-decoration: 
@@ -6962,6 +6972,13 @@ a:link {
   color:#ccc;
 }
 
+#header {
+    margin: 0px; 
+    padding: 0px; 
+    margin-bottom: 0px;
+    border-bottom: solid 3px blue;
+}
+
 #h1-big {
     font-family: 'Righteous', cursive;
     color: blue;
@@ -6971,6 +6988,40 @@ a:link {
     font-family: 'Righteous', cursive;
     font-size: 24px;
     color: blue;
+}
+
+.header-links {
+    margin-bottom: 15px;
+}
+
+/* wide */
+@media (min-width: 600px) {
+    .header-links {
+        float: right; 
+        text-align: right;
+        display: inline; 
+        margin-top: 24px;
+    }
+}
+
+/* slim */
+@media (max-width: 601px) {
+    .header-links {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+#lead {
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.4
+}
+@media (min-width: 768px) {
+    #lead {
+        font-size: 26px
+    }
 }
 
 #description {
