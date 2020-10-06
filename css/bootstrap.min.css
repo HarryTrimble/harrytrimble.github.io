@@ -7036,6 +7036,16 @@ h2 {
     font-family: 'Rubik', sans-serif;
 }
 
+.organisation {
+    font-size: 16px;
+}
+
+.read-time {
+    font-size: 16px; 
+    padding-left: 5px;
+    color: #909090;
+}
+
 ul.timeline {
     list-style-type: none;
 }
