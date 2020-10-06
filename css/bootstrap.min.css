@@ -7046,6 +7046,11 @@ h2 {
     color: #909090;
 }
 
+.date {
+    font-size: 16px; 
+    color: #909090;
+}
+
 ul.timeline {
     list-style-type: none;
 }
