@@ -6979,9 +6979,24 @@ a:link {
     border-bottom: solid 3px blue;
 }
 
+#contact {
+    margin: 0px; 
+    padding: 0px;
+    background: #333; 
+    margin-bottom: 0px;
+    background-color: #CCCCCC;
+    vertical-align: middle;
+}
+
 #h1-big {
     font-family: 'Righteous', cursive;
     color: blue;
+
+}
+
+#h1-big a:hover {
+    color: #333;
+    
 }
 
 #title-name {
@@ -6992,6 +7007,10 @@ a:link {
 
 .header-links {
     margin-bottom: 15px;
+}
+
+.header-links a {
+    font-size: 18px;
 }
 
 /* wide */
@@ -7037,17 +7056,17 @@ h2 {
 }
 
 .organisation {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .read-time {
-    font-size: 16px; 
+    font-size: 18px; 
     padding-left: 5px;
     color: #909090;
 }
 
 #date {
-    font-size: 16px; 
+    font-size: 18px; 
     color: #909090;
 }
 
