@@ -6919,17 +6919,6 @@ a:link {
     text-decoration: none;
 }
 
-#link-to-homepage {
-    color: #0000FF !important;
-    text-decoration: 
-
-}
-
-#link-to-homepage:hover {
-    color: #0000FF !important;
-    text-decoration: none;
-}
-
 .page-title {
     font-weight: 300;
     font-size: 50px;
@@ -6976,7 +6965,7 @@ a:link {
     margin: 0px; 
     padding: 0px; 
     margin-bottom: 0px;
-    border-bottom: solid 3px blue;
+    border-bottom: solid 2px blue;
 }
 
 #contact {
@@ -6989,20 +6978,27 @@ a:link {
 }
 
 #h1-big {
-    font-family: 'Righteous', cursive;
     color: blue;
-
 }
 
 #h1-big a:hover {
-    color: #333;
-    
+    color: #333;  
 }
 
 #title-name {
-    font-family: 'Righteous', cursive;
-    font-size: 24px;
+    font-size: 21px;
     color: blue;
+}
+
+#link-to-homepage {
+    color: #0000FF !important;
+    text-decoration: 
+
+}
+
+#link-to-homepage:hover {
+    color: #0000FF !important;
+    text-decoration: none;
 }
 
 .header-links {
@@ -7010,7 +7006,7 @@ a:link {
 }
 
 .header-links a {
-    font-size: 18px;
+    font-size: 21px;
 }
 
 /* wide */
@@ -7032,14 +7028,14 @@ a:link {
 }
 
 #lead {
-    margin-bottom: 20px;
-    font-size: 19px;
+    margin-bottom: 15px;
+    font-size: 21px;
     font-weight: 300;
     line-height: 1.4
 }
 @media (min-width: 768px) {
     #lead {
-        font-size: 26px
+        font-size: 21px
     }
 }
 
@@ -7068,39 +7064,6 @@ h2 {
 #date {
     font-size: 18px; 
     color: #909090;
-}
-
-ul.timeline {
-    list-style-type: none;
-}
-
-ul.timeline:before {
-    content: ' ';
-    background: #333;
-    display: inline-block;
-    position: absolute;
-    left: 33px;
-    width: 2px;
-    height: 80%;
-    z-index: 400;
-}
-
-ul.timeline > li {
-    margin: 35px 0;
-    padding-left: 20px;
-}
-
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #333;
-    left: 20px;
-    width: 27px;
-    height: 27px;
-    z-index: 400;
 }
 
 #current:before {
