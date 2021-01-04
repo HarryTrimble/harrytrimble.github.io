@@ -7020,6 +7020,10 @@ a:link {
     padding-top: 8px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* wide */
 @media (min-width: 600px) {
     .header-links {
