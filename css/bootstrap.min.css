@@ -6979,13 +6979,20 @@ a:link {
 
 #h1-big {
     color: blue;
+    padding-top: 3px;
 }
 
 #h1-big a:hover {
     color: #333;  
 }
 
-#title-name {
+#h1-heading {
+    font-size: 26px;
+    color: blue;
+    font-family: 'Righteous', sans-serif;
+}
+
+#h2-heading {
     font-size: 21px;
     color: blue;
 }
@@ -7009,6 +7016,10 @@ a:link {
     font-size: 21px;
 }
 
+#email-address {
+    padding-top: 8px;
+}
+
 /* wide */
 @media (min-width: 600px) {
     .header-links {
@@ -7017,6 +7028,9 @@ a:link {
         display: inline; 
         margin-top: 24px;
     }
+    #email-address {
+        font-size: 21px;
+    }
 }
 
 /* slim */
@@ -7024,6 +7038,9 @@ a:link {
     .header-links {
         display: inline-block;
         width: 100%;
+    }
+    #email-address {
+        font-size: 18px;
     }
 }
 
