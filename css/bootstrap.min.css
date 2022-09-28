@@ -1097,7 +1097,7 @@ textarea {
     line-height: inherit
 }
 a {
-    color: #0000FF;
+    color: #333;
     text-decoration: none
 }
 a:focus,
@@ -6965,7 +6965,7 @@ a:link {
     margin: 0px; 
     padding: 0px; 
     margin-bottom: 0px;
-    border-bottom: solid 2px blue;
+    border-bottom: solid 2px #333;
 }
 
 #contact {
@@ -6973,7 +6973,8 @@ a:link {
     padding: 0px;
     background: #333; 
     margin-bottom: 0px;
-    background-color: #CCCCCC;
+    background-color: #ffffff;
+    border-top: solid 2px #333;
     vertical-align: middle;
 }
 
@@ -6988,13 +6989,13 @@ a:link {
 
 #h1-heading {
     font-size: 26px;
-    color: blue;
+    color: #333;
     font-family: 'Righteous', sans-serif;
 }
 
 #h2-heading {
     font-size: 21px;
-    color: blue;
+    color: #333;
 }
 
 #link-to-homepage {
