@@ -7061,10 +7061,6 @@ html {
     }
 }
 
-#description {
-    font-size: 24px;
-}
-
 body {
     font-family: Rubik;
 }
@@ -7073,14 +7069,22 @@ h2 {
     font-family: 'Rubik', sans-serif;
 }
 
+#description {
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
 .organisation {
     font-size: 18px;
 }
 
-.read-time {
-    font-size: 18px; 
-    padding-left: 5px;
-    color: #909090;
+.employer {
+    font-weight: bold;
+}
+
+.read-time { 
+    padding-left: 8px;
+    color: #909090; 
 }
 
 #date {
@@ -7092,5 +7096,4 @@ h2 {
     border: 3px solid blue;
     background: blue;
 }
-
     
