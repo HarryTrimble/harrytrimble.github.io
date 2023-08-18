@@ -1086,7 +1086,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff
+    background-color: #fff;
 }
 button,
 input,
@@ -5104,7 +5104,7 @@ a.badge:hover {
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: #ffffff
+    background-color: #ffffff;
 }
 .jumbotron .h1,
 .jumbotron h1 {
@@ -7085,7 +7085,8 @@ h2 {
 
 .read-time { 
     padding-left: 8px;
-    color: #909090; 
+    color: #909090;
+    font-size: 18px;
 }
 
 #date {
