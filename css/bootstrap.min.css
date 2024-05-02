@@ -11,7 +11,8 @@ html {
     -ms-text-size-adjust: 100%
 }
 body {
-    margin: 0
+    margin: 0;
+    background-color: lightcoral;
 }
 article,
 aside,
@@ -1086,7 +1087,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: lightpink;
 }
 button,
 input,
@@ -1128,6 +1129,8 @@ img {
 
 .img-responsive {
     width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0px;
 }
 
 .img-rounded {
@@ -5104,7 +5107,7 @@ a.badge:hover {
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: #ffffff;
+    background-color: #fff7f8;
 }
 .jumbotron .h1,
 .jumbotron h1 {
