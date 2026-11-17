@@ -147,13 +147,6 @@ p {
   }
 }
 
-.site-header .row > div::after,
-.site-footer .row > div::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Homepage */
 
 .intro {
@@ -256,4 +249,18 @@ p {
   display: block;
   margin-top: 4px;
   font-size: 18px;
+}
+
+/* Layout: one centred column instead of the Bootstrap grid */
+
+.wrap {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.wrap::after {
+  content: "";
+  display: table;
+  clear: both;
 }
