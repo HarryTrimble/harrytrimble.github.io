@@ -264,3 +264,10 @@ p {
   display: table;
   clear: both;
 }
+
+.project-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

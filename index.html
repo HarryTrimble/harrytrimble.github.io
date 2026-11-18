@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:wght@400;700&display=swap">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/site.css?v=2">
+  <link rel="stylesheet" href="css/site.css?v=3">
 </head>
 <body>
   <header class="site-header">
@@ -68,6 +68,13 @@
           <h2><a href="https://www.projectsbyif.com/work/healthcare-data-transparency">Authenticator device</a></h2>
           <p>I helped designed a device for clinicans to securely access Deepmind software in hospitals. Doing both digital and physical product design, it was part of a bigger bit of work to safeguard healthcare data.</p>
           <p class="meta"><span class="employer">Google Deepmind</span> <span class="year">2017</span></p>
+        </article>
+
+        <article class="project">
+          <a href="https://blueprint-gov-2025.dxw.com/credentials" tabindex="-1" aria-hidden="true"><video class="project-video" src="images/digital-credentials.mp4" poster="images/digital-credentials.jpg" autoplay muted loop playsinline aria-hidden="true"></video></a>
+          <h2><a href="https://blueprint-gov-2025.dxw.com/credentials">Near future public services</a></h2>
+          <p>Prototypes exploring what data and automation in a blueprint for government could be like.</p>
+          <p class="meta"><span class="employer">dxw</span> <span class="year">2025</span></p>
         </article>
 
         <article class="project">
@@ -259,5 +266,10 @@
       </ul>
     </div>
   </footer>
+  <script>
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('video[autoplay]').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); });
+    }
+  </script>
 </body>
 </html>
