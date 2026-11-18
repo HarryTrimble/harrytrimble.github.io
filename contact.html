@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:wght@400;700&display=swap">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/site.css?v=3">
+  <link rel="stylesheet" href="css/site.css?v=4">
 </head>
 <body>
   <header class="site-header">
@@ -58,9 +58,18 @@
     </div>
   </footer>
   <script>
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      document.querySelectorAll('video[autoplay]').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); });
-    }
+    (function () {
+      var videos = document.querySelectorAll('video[data-autoplay]');
+      if (!videos.length || !('IntersectionObserver' in window)) return;
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) { entry.target.play().catch(function () {}); }
+          else { entry.target.pause(); }
+        });
+      }, { rootMargin: '200px 0px' });
+      videos.forEach(function (v) { observer.observe(v); });
+    })();
   </script>
 </body>
 </html>
